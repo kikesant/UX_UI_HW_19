@@ -9,12 +9,6 @@ li {
     font-family: 'Lato', sans-serif;
 }
 body {margin: 12%}
-.navigation p {
-    margin-left: 20px;
-}
-.navigation img {
-    float: inline-start;
-}
 .heroImg p {
     max-width: 1150px;
 }
@@ -23,23 +17,39 @@ body {margin: 12%}
     vertical-align: right; 
 }
 header {
-    width: 90%; 
+    max-width: 1150px; 
+    padding: 2%;
     margin-left: 50px;
 }    
 .logo {
+    position:absolute;
+    top:80px;
+    left: 220px; 
     padding: 1%;
-    text-align: center;
 }
-nav {
-    width: 73%;
-    padding: 2%;
-} 
+.navigation p {
+    position:absolute;
+    top:80px;
+    left: 250px; 
+    padding: 1%;
+}
+.kike {
+    display: inline-block;
+    position: absolute;
+    margin-left: 40px; 
+    top:0px;
+    right:0;  
+    font-family: 'Lato', sans-serif;
+}
 .inline-block ul {
-
+    position:absolute;
+    margin-right:-200px;
+    top:100px;
+    right:0; 
     justify-content: flex-end;
     width: 50%;
     margin-left: 65%;
-    word-spacing: 1rem;
+    word-spacing: 2rem;
     font-weight: bold;
 }
 .heroImg section {
